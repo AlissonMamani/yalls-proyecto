@@ -1,2 +1,2 @@
-# jalls-proyecto
+# yalls-proyecto
 Proyecto Grupal
