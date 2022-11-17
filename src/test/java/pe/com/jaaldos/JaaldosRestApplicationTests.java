@@ -1,10 +1,10 @@
-package pe.com.yalls;
+package pe.com.jaaldos;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class YallsApplicationTests {
+class JaaldosRestApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -8,11 +8,11 @@
 		<version>2.7.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>pe.com.yalls</groupId>
-	<artifactId>yalls</artifactId>
+	<groupId>pe.com.jaaldos</groupId>
+	<artifactId>JaaldosRest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>yalls</name>
-	<description>Demo project for Spring Boot</description>
+	<name>yalls-proyecto</name>
+	<description>API REST SPRING</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

@@ -1,13 +1,13 @@
-package pe.com.yalls;
+package pe.com.jaaldos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class YallsApplication {
+public class JaaldosRestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(YallsApplication.class, args);
+		SpringApplication.run(JaaldosRestApplication.class, args);
 	}
 
 }
