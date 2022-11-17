@@ -19,11 +19,6 @@ public class ProveedorServiceImp implements ProveedorService{
     public List<Proveedor> findAll() {
         return repositorio.findAll();
     }
-    
-    @Override
-    public List<Proveedor> findAllCustom() {
-        return repositorio.findAllCustom();
-    }
 
     @Override
     public Optional<Proveedor> findById(Long id) {

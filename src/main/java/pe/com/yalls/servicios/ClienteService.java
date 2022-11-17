@@ -8,8 +8,6 @@ public interface ClienteService {
     
     List<Cliente> findAll();
     
-    List<Cliente> findAllCustom();
-    
     Optional<Cliente> findById(Long id);
 
     Cliente add(Cliente cliente);

@@ -7,8 +7,6 @@ import pe.com.yalls.entidades.DetalleBoleta;
 public interface DetalleBoletaService {
     
     List<DetalleBoleta> findAll();
-    
-    List<DetalleBoleta> findAllCustom();
 
     Optional<DetalleBoleta> findById(String id);
 

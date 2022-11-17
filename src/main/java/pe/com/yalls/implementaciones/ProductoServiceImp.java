@@ -20,10 +20,6 @@ public class ProductoServiceImp implements ProductoService{
         return repositorio.findAll();
     }
     
-    @Override
-    public List<Producto> findAllCustom() {
-        return repositorio.findAllCustom();
-    }
 
     @Override
     public Optional<Producto> findById(Long id) {

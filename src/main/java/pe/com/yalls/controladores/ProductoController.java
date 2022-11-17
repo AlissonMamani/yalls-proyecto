@@ -26,10 +26,7 @@ public class ProductoController {
         return servicio.findAll();
     }
     
-    @GetMapping("/custom")
-    public List<Producto> findAllCustom() {
-        return servicio.findAllCustom();
-    }
+    
     
     @GetMapping("/{id}")
     public Optional<Producto> findById(@PathVariable Long id){

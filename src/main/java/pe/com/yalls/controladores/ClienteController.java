@@ -26,10 +26,6 @@ public class ClienteController {
         return servicio.findAll();
     }
     
-    @GetMapping("/custom")
-    public List<Cliente> findAllCustom() {
-        return servicio.findAllCustom();
-    }
     
     @GetMapping("/{id}")
     public Optional<Cliente> findById(@PathVariable Long id){

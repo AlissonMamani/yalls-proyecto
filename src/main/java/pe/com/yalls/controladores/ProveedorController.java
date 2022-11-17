@@ -26,10 +26,6 @@ public class ProveedorController {
         return servicio.findAll();
     }
     
-    @GetMapping("/custom")
-    public List<Proveedor> findAllCustom() {
-        return servicio.findAllCustom();
-    }
     
     @GetMapping("/{id}")
     public Optional<Proveedor> findById(@PathVariable Long id){

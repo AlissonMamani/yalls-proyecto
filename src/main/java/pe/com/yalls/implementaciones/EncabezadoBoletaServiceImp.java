@@ -19,11 +19,7 @@ public class EncabezadoBoletaServiceImp implements EncabezadoBoletaService{
     public List<EncabezadoBoleta> findAll() {
         return repositorio.findAll();
     }
-    
-    @Override
-    public List<EncabezadoBoleta> findAllCustom() {
-        return repositorio.findAllCustom();
-    }
+   
 
     @Override
     public Optional<EncabezadoBoleta> findById(String id) {

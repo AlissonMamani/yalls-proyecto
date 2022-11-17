@@ -7,8 +7,6 @@ import pe.com.yalls.entidades.Proveedor;
 public interface ProveedorService {
     
     List<Proveedor> findAll();
-    
-    List<Proveedor> findAllCustom();
 
     Optional<Proveedor> findById(Long id);
 

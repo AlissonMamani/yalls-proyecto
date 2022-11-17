@@ -20,10 +20,6 @@ public class ClienteServiceImp implements ClienteService{
         return repositorio.findAll();
     }
     
-    @Override
-    public List<Cliente> findAllCustom() {
-        return repositorio.findAllCustom();
-    }
 
     @Override
     public Optional<Cliente> findById(Long id) {
