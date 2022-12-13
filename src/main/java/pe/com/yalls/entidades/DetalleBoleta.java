@@ -1,4 +1,4 @@
-package pe.com.yalls.entidades;
+package pe.com.jaaldos.entidades;
 
 import java.io.Serializable;
 import javax.persistence.Column;
@@ -31,9 +31,6 @@ public class DetalleBoleta implements Serializable{
     
     @Column(name = "importe_producto")
     private double importe;
-    
-    @Column(name = "total_pagar")
-    private double total;
     
     @Column(name = "estado_detalle_boleta")
     private boolean estado; 
