@@ -1,4 +1,4 @@
-package pe.com.jaaldos.entidades;
+package pe.com.yalls.entidades;
 
 import java.io.Serializable;
 import javax.persistence.Column;
@@ -13,6 +13,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import pe.com.yalls.entidades.EncabezadoBoleta;
+import pe.com.yalls.entidades.Producto;
 
 @Builder
 @NoArgsConstructor
