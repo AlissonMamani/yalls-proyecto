@@ -13,6 +13,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import pe.com.yalls.entidades.EncabezadoBoleta;
+import pe.com.yalls.entidades.Producto;
 
 @Builder
 @NoArgsConstructor
@@ -31,9 +33,6 @@ public class DetalleBoleta implements Serializable{
     
     @Column(name = "importe_producto")
     private double importe;
-    
-    @Column(name = "total_pagar")
-    private double total;
     
     @Column(name = "estado_detalle_boleta")
     private boolean estado; 
