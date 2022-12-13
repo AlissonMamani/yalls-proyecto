@@ -1,6 +1,5 @@
 package pe.com.yalls.entidades;
 
-import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -16,20 +15,20 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Entity(name = "ProveedorEntity")
-@Table(name = "proveedor")
-public class Proveedor implements Serializable{
-
+@Entity(name = "RolEntity")
+@Table(name = "rol")
+public class Rol {
+    
     private static final long serialVersionUID = 1L;
     
     @Id
-    @Column(name = "codigo_proveedor")
+    @Column(name = "codigo_rol")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long codigo;
     
-    @Column(name = "nombre_proveedor")
+    @Column(name = "nombre_rol")
     private String nombre;
-    
-    @Column(name = "estado_proveedor")
-    private boolean estado;    
+   
+    @Column(name = "estado_rol")
+    private boolean estado; 
 }
