@@ -35,4 +35,8 @@ public class EncabezadoBoleta implements Serializable{
     @ManyToOne
     @JoinColumn(name = "codigo_cliente", nullable = false)
     private Cliente cliente; 
+    
+    @ManyToOne
+    @JoinColumn(name = "codigo_empleado", nullable = false)
+    private Empleado empleado; 
 }
