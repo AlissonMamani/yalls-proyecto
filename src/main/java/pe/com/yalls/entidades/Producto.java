@@ -39,11 +39,7 @@ public class Producto implements Serializable{
     private int stock;   
     
     @Column(name = "estado_producto")
-    private boolean estado; 
-    
-    @ManyToOne
-    @JoinColumn(name = "codigo_proveedor", nullable = false)
-    private Proveedor proveedor; 
+    private boolean estado;  
     
     @ManyToOne
     @JoinColumn(name = "codigo_categoria", nullable = false)
