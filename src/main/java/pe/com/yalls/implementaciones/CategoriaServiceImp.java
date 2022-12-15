@@ -19,6 +19,11 @@ public class CategoriaServiceImp implements CategoriaService{
     public List<Categoria> findAll() {
         return repositorio.findAll();
     }
+    
+        @Override
+    public List<Categoria> findAllCustom() {
+        return repositorio.findAllCustom();
+    }
 
     @Override
     public Optional<Categoria> findById(Long id) {

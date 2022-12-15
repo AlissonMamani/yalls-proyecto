@@ -26,6 +26,11 @@ public class EncabezadoBoletaController {
         return servicio.findAll();
     }
     
+      @GetMapping("/custom")
+    public List<EncabezadoBoleta> findAllCustom(){
+        return servicio.findAllCustom();
+    }
+    
     
     @GetMapping("/{id}")
     public Optional<EncabezadoBoleta> findById(@PathVariable String id){

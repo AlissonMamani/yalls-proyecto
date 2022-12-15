@@ -7,6 +7,8 @@ import pe.com.yalls.entidades.Categoria;
 public interface CategoriaService {
     
     List<Categoria> findAll();
+    
+    List<Categoria> findAllCustom();
 
     Optional<Categoria> findById(Long id);
 

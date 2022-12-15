@@ -8,6 +8,8 @@ public interface EncabezadoBoletaService {
     
     List<EncabezadoBoleta> findAll();
     
+    List<EncabezadoBoleta> findAllCustom();
+    
     Optional<EncabezadoBoleta> findById(String id);
 
     EncabezadoBoleta add(EncabezadoBoleta encabezadoBoleta);

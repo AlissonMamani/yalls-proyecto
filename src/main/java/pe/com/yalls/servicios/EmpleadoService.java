@@ -7,6 +7,8 @@ import pe.com.yalls.entidades.Empleado;
 public interface EmpleadoService {
     
     List<Empleado> findAll();
+    
+    List<Empleado> findAllCustom();
 
     Optional<Empleado> findById(Long id);
 

@@ -25,6 +25,10 @@ public class DetalleBoletaController {
     public List<DetalleBoleta> findAll(){
         return servicio.findAll();
     }
+    @GetMapping("/custom")
+    public List<DetalleBoleta> findAllCustom(){
+        return servicio.findAllCustom();
+    }
     
     
     @GetMapping("/{id}")

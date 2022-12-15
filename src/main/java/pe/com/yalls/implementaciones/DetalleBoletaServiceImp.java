@@ -19,6 +19,11 @@ public class DetalleBoletaServiceImp implements DetalleBoletaService{
     public List<DetalleBoleta> findAll() {
         return repositorio.findAll();
     }
+    
+    @Override
+    public List<DetalleBoleta> findAllCustom() {
+        return repositorio.findAllCustom();
+    }
    
 
     @Override

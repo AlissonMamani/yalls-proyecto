@@ -16,6 +16,7 @@ public interface RolService {
     
     List<Rol> findAll();
 
+    List<Rol> findAllCustom();
 
 
    Optional<Rol> findById(Long id);

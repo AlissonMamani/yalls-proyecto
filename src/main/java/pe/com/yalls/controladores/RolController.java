@@ -37,6 +37,10 @@ public class RolController {
     public List<Rol> findAll(){
         return servicio.findAll();
     }
+    @GetMapping("/custom")
+    public List<Rol> findAllCustom(){
+        return servicio.findAllCustom();
+    }
     
     @GetMapping("/{id}")
     public Optional<Rol> findById(@PathVariable Long id){

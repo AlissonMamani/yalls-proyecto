@@ -26,6 +26,11 @@ public class CategoriaController {
         return servicio.findAll();
     }
     
+    @GetMapping("/custom")
+    public List<Categoria> findAllCustom(){
+        return servicio.findAllCustom();
+    }
+    
     
     @GetMapping("/{id}")
     public Optional<Categoria> findById(@PathVariable Long id){

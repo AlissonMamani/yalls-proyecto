@@ -7,6 +7,8 @@ import pe.com.yalls.entidades.Producto;
 public interface ProductoService {
     
     List<Producto> findAll();
+    
+     List<Producto> findAllCustom();
 
     Optional<Producto> findById(Long id);
 

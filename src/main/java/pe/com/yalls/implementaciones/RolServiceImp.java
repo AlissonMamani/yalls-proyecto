@@ -28,7 +28,10 @@ public class RolServiceImp implements RolService{
         return repositorio.findAll();
     }
 
-
+    @Override
+    public List<Rol> findAllCustom() {
+        return repositorio.findAllCustom();
+    }
 
    @Override
     public Optional<Rol> findById(Long id) {
